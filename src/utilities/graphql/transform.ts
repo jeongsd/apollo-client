@@ -426,7 +426,7 @@ export function removeFragmentSpreadFromDocument(
   );
 }
 
-function getAllFragmentSpreadsFromSelectionSet(
+export function getAllFragmentSpreadsFromSelectionSet(
   selectionSet: SelectionSetNode,
 ): FragmentSpreadNode[] {
   const allFragments: FragmentSpreadNode[] = [];
